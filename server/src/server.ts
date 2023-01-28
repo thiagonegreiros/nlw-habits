@@ -8,6 +8,6 @@ app.get('/', () => {
 
 app.listen({
   port: 3334
+}).then(() => {
+  console.log('HTTP Server Running')
 })
-
-
